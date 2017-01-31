@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="org.venture.samee.sameera.MainActivity">
+
+    <EditText
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:id="@+id/editTextbj"
+        android:hint="user_name"
+        android:layout_above="@+id/editText1bj"
+        android:layout_alignLeft="@+id/editText1bj"
+        android:layout_alignStart="@+id/editText1bj"
+        android:layout_marginBottom="35dp" />
+
+    <EditText
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:id="@+id/editText1bj"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Log In"
+        android:textColor="#ffffff"
+            android:background="@drawable/roundshapebtn"
+        android:id="@+id/loginbj"
+        android:layout_below="@+id/textViewbj"
+        android:layout_centerHorizontal="true" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text=""
+        android:textColor="#ff0000"
+        android:id="@+id/textViewbj"
+        android:layout_below="@+id/editText1bj"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

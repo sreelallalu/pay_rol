@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<LinearLayout
+
+    android:layout_marginTop="5dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:gravity="center"
+        android:textSize="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Capture Image.."/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="120dp">
+
+
+
+
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+  <ImageView
+
+      android:layout_width="50dp"
+      android:layout_height="50dp"
+      android:src="@android:drawable/ic_menu_camera"
+
+
+      android:layout_centerVertical="true"
+      android:layout_alignParentLeft="true"
+      android:layout_alignParentStart="true"
+      android:id="@+id/imageView" />
+
+    <TextView
+        android:layout_gravity="center"
+        android:id="@+id/klop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="image click"
+        />
+    <Button
+        android:layout_marginLeft="70dp"
+        android:id="@+id/clearimg"
+        android:layout_gravity="center"
+        android:text="clear"
+        android:layout_marginTop="10dp"
+        android:layout_width="100dp"
+        android:layout_height="40dp" />
+</LinearLayout>
+        <TextView
+            android:id="@+id/yuo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="image tag"
+             />
+    <EditText
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/editText2" />
+    </LinearLayout>
+
+    <View
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@android:color/darker_gray"
+        android:layout_width="match_parent"
+        android:layout_height="1px"/>
+<ImageView
+    android:id="@+id/imgview"
+    android:layout_marginTop="20dp"
+   android:layout_gravity="center"
+    android:layout_width="150dp"
+    android:layout_height="150dp" />
+    <Button
+        android:id="@+id/sendimg"
+        android:layout_gravity="center"
+   android:text="SEND"
+        android:layout_marginTop="10dp"
+        android:layout_width="150dp"
+        android:layout_height="60dp" />
+    <View
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@android:color/darker_gray"
+        android:layout_width="match_parent"
+        android:layout_height="1px"/>
+
+
+</LinearLayout>
+
+</ScrollView>

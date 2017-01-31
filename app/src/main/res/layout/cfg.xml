@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:text="Salary.."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Spinner
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:id="@+id/year"
+    android:layout_width="match_parent"
+    android:layout_height="60dp">
+
+</Spinner>
+    <Spinner
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:id="@+id/month"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+    </Spinner>
+    <View
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@android:color/darker_gray"
+        android:layout_width="match_parent"
+        android:layout_height="1px"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:orientation="horizontal">
+    <Button
+        android:layout_marginLeft="50dp"
+        android:text="salary"
+
+        android:id="@+id/salarycurrent"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+
+    <TextView
+      android:id="@+id/textcurrent"
+     android:layout_marginLeft="20dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/jkio"
+            android:layout_marginLeft="90dp"
+            android:text=""
+            android:textColor="@color/darkgreen"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <TextView
+            android:id="@+id/salaryresult"
+            android:layout_marginLeft="20dp"
+            android:text=""
+            android:textColor="@color/grey"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:layout_marginLeft="130dp"
+            android:text="clearall"
+
+            android:id="@+id/clearrt"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+
+</LinearLayout>
+</ScrollView>
